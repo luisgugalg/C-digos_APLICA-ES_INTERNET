@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="Topo">Sites de Compras</h1>
+    <h3>Submarino</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam labore quis at eius! Fuga quo dolorum iste, exercitationem quae alias nam dolores adipisci quam labore? Atque porro minus beatae iste!</p>
+    <a href="https://www.submarinoviagens.com.br/">Submarino</a>
+
+    <h3>Amazon</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci ea qui alias non eum expedita id doloribus, consequuntur eos ad dolore? Deleniti libero ipsam laudantium quasi! Vitae, at voluptates.</p>
+    <a href="https://www.amazon.com.br/ref=nav_logo">Amazon</a>
+
+    <h3>Lojas Americanas</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, blanditiis eaque fuga nemo quam veniam illum cupiditate sit iusto fugit et labore, maiores doloremque eveniet officia temporibus quidem hic in!</p>
+    <a href="https://nossaslojas.americanas.com.br/">Americanas</a>
+
+    <h3>Walmart</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem asperiores ipsum vero suscipit itaque nostrum neque aliquam laudantium ab placeat! Saepe ratione illum iste eaque doloremque id. Modi, possimus? Enim.</p>
+    <a href="https://www.walmart.com/">Walmart</a>
+
+    <h3>Saraiva</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At sunt blanditiis itaque laudantium officiis dolorum nobis nulla quos aliquid aperiam obcaecati beatae, repellat, ea veniam provident tenetur assumenda nam. Iusto.</p>
+    <a href="https://editorasaraiva.com.br/">Saraiva</a>
+    <br>
+    <br>
+    <a href="#nós">Sobre nós:Nós</a>
+    <br>
+    <a href="SITES DE COMPRAS.html">Voltar ao Topo:Topo</a>
+  
+</body>
+</html>
