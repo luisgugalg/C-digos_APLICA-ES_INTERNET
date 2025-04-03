@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Formulário Avançado</h1>
+
+        <ul>
+            <li>
+                <a href="#Sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#Contato">Contato</a>
+            </li>
+            <li>
+                <a href="#Feedback">Feedback</a>
+            </li>
+        </ul>
+
+        <h2>Sobre</h2>
+        <section id="Sobre">
+
+        <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRou1vX4tfX7P1SpY9dqrPtHS8UBodKBD7STQ&s" alt="">
+        
+        </section>
+
+        <section id="Contato"></section>
+
+        <h2>Contato</h2>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="Nome Completo">Nome Completo: </label>
+            <input type="text" id="Nome Completo" name="Nome Completo" placeholder="Digite seu nome">
+            </br></br>
+            <label for="Email">Email: </label>
+            <input type="text" id="Email" name="Email" placeholder="exemplo@email.com">
+            </br></br>
+            <label for="Telefone">Telefone: </label>
+            <input type="text" id="Telefone" name="Telefone" placeholder="(00)00000-0000">
+            </br></br>
+            <label for="CPF">CPF: </label>
+            <input type="text" id="CPF" name="CPF" placeholder="000.000.000-00">
+            </br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="Endereço">Endereço</label>
+            <input type="text" id="Endereço" name="Endereço" placeholder="Rua, Número, Bairro, Cidade">
+            </br>
+            <label for="CEP">CEP: </label>
+            <input type="text" id="CEP" name="CEP" placeholder="00000-00">
+            </br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Detalhes do Contato</legend>
+
+            <label for="Mensagem">Mensagem: </label>
+            <textarea type="text" id="Mensagem" name="Mensagem" placeholder="Escreva sua mensagem"></textarea>
+        </br></br>
+
+            
+            <label for="Motivo do contato">Motivo do contato: </label>
+            <select name="Motivo do contato" id="Motivo do contato">
+                <option value="Selecione...">Selecione...</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+            </select>
+        </br></br>
+
+            <label for="Anexar Arquivo">Anexar Arquivo: </label>
+            <button>Escolher Arquivo</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+            <input type="checkbox" name="Desejo receber novidades" id="Desejo receber novidades">
+            <label for="Desejo receber novidades">Desejo receber novidades</label>
+        </br></br>
+            <label for="Forma de contato Preferida">Forma de contato Preferida: </label>
+            <input type="radio" name="Forma de contato Preferida" id="Forma de contato Preferida"> Email:
+            <input type="radio" name="Forma de contato Preferida" id="Forma de contato Preferida"> Telefone: 
+        </fieldset>
+
+        <button>Enviar</button>
+        <button>Limpar</button>
+
+        <section id="Feedback"> 
+        <h2>Feedback</h2>
+
+        <img src="https://miro.medium.com/v2/resize:fit:1400/0*qKksSvflsm_XHdI7.jpg" alt="">
+    </br></br>
+
+        <table border="1">
+            <tr>
+               <th>Nome</th> 
+               <th>Email</th>
+               <th>Telefone</th>
+               <th>Endereço</th>
+               <th>Mensagem</th>
+               <th>Motivo</th>
+            </tr>
+        </table>
+        </section>
+    </br></br>
+    
+        <p>Fim do Formulário</p>
+    </form>
+</body>
+</html>
